@@ -7,10 +7,7 @@ int main(int argc, char **argv) {
         return 1;
     }
     FILE *img = fopen(argv[1], "rb");
-    if (!img) {
-        perror("fopen");
-        return 1;
-    }
+    if (!img) { perror("fopen"); return 1; }
 
     superblock_t sb;
     if (read_superblock(img, &sb) != 0) {
