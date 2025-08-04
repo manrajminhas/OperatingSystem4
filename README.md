@@ -1,6 +1,6 @@
 # OperatingSystem4
 
-A collection of C utilities for inspecting and manipulating a simple FAT‑like file system image. Originally developed as UVic CSC360 Assignment 4, this project includes four command‑line tools:
+A collection of C utilities for inspecting and manipulating a simple FAT‑like file system image, this personal project includes four command‑line tools:
 
 * **diskinfo**: Display superblock and FAT statistics.
 * **disklist**: List directory contents in the image.
